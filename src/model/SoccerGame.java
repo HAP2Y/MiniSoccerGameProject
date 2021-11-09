@@ -21,6 +21,8 @@ public class SoccerGame {
 
 	/** isOver of type boolean */
 	private Boolean isOver;
+	
+	private static PlayerFactory playerFactory;
 
 	/** gamePlayers of type PlayerCollection 
 	 * stores game players in player collection list
@@ -42,7 +44,7 @@ public class SoccerGame {
 		isPaused = false;
 		isOver = false;
 		SoccerBall.getSoccerBall().resetSoccerBall();
-		PlayerFactory playerFactory = new PlayerFactory();
+		playerFactory = PlayerFactory.getInstance();
 		gamePlayers = new PlayerCollection();
 		gamePlayers.add(playerFactory.getPlayer("Striker"));
 		gamePlayers.add(playerFactory.getPlayer("Goalkeeper"));
