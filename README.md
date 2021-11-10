@@ -12,6 +12,9 @@ Featuring design pattern/principle:
 * Polymorphism
 * Inheritance
 
+## Instruction Video
+Video on how to download and run the project is available here: https://drive.google.com/file/d/1bZAB7JZOKr6jWoPJCrE9Mbnpd_V4SYt7/view?usp=sharing
+
 ## Control/Rules
 
 ### Movement
