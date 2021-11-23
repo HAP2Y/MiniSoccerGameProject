@@ -1,4 +1,4 @@
-# Mini Soccer Game
+# Mini Soccer Game Project
 
 A mini soccer game written in Java 11 using Java Swing.
 
